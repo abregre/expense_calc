@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/6cdc5b8190.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Υπολογιστής Εξόδων</title>
+  </head>
+  <body>
+    <header>
+      <h1>Υπολογιστής Εξόδων</h1>
+    </header>
+    <main>
+      <div class="container">
+        <ul class="exp-type"></ul>
+        <div class="exp-budget">
+          <div class="type-output"></div>
+          <div class="amount-output">
+            <i class="fas fa-arrow-circle-down"></i>Επιλεξτε ποσο
+          </div>
+          <div class="Input">
+            <input
+              class="amount"
+              type="number"
+              min="1"
+              max="250"
+              value="0"
+              placeholder="Επιλέξτε Ποσό"
+            />
+            <button class="input-label">€</button>
+          </div>
+          <small>min: 1€ max: 250€</small>
+        </div>
+        <div class="exp-result">
+          <div class="message"></div>
+          <div class="result-output">
+            <p>εχετε επιλεξει:</p>
+            <span class="type-submit"></span> <br />
+            <span class="amount-submit">0 €</span
+            ><i class="fas fa-check-circle check"></i
+            ><i class="fas fa-exclamation-circle error tooltip"
+              ><span class="tooltip-text">Ελεγξτε το ειδος και το ποσο</span></i
+            >
+          </div>
+          <button class="btn">καταχωρηση</button>
+        </div>
+      </div>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>
