@@ -1,7 +1,7 @@
 <h1> Expense Calculator </h1><br>
 
 
-Demo Deployment : https://abregre.github.io/expense_calc/
+Deployment : https://abregre.github.io/expense_calc/
 <br>
 
 
@@ -31,4 +31,6 @@ Web application used to submit and view business expenses for restaurant<br>
 <strong>Stage</strong><br>
 
 The project has only front-end functionality for selecting expenses and costs with some validations.
+
+Work in Progress
 
